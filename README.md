@@ -30,5 +30,6 @@ Please cite the following paper if your are using it someway...
 ```bash
 wget https://s3.amazonaws.com/virlab/rise.tar.gz
 tar xvfz rise.tar.gz
-``` Move all the folders (index, queries, judgments) to `$RISE_FILES`
+``` 
+Move all the folders (index, queries, judgments) to `$RISE_FILES`
 3. open `$RISE_ROOT/docker/` 
