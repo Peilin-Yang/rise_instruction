@@ -25,4 +25,11 @@ Please cite the following paper if your are using it someway...
 
 ```
 
-1. `git clone `https://github.com/Peilin-Yang/reproducibleIR.git
+1. `git clone https://github.com/Peilin-Yang/reproducibleIR.git`
+2. Download the indexes, queries and evaluation files.
+```
+wget https://s3.amazonaws.com/virlab/rise.zip
+unzip rise.zip
+```
+Move all the folders (index, queries, evals) to `$RISE_FILES`
+3. open `$RISE_ROOT/docker/` 
