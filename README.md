@@ -26,7 +26,9 @@ Please cite the following paper if your are using it someway...
 
 ```
 
-### Prereqties
+### Prerequisites
+* docker
+* docker-compose
 
 
 ### Installation
