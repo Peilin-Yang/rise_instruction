@@ -24,3 +24,5 @@ Please cite the following paper if your are using it someway...
 } 
 
 ```
+
+1. `git clone `https://github.com/Peilin-Yang/reproducibleIR.git
