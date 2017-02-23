@@ -4,6 +4,7 @@ RISE aims for the easy implementation of Information Retrieval models and the au
 
 Please cite the following paper if your are using it someway...
 
+
 ```
 @inproceedings{Yang:2016:RSI:2970398.2970415,
  author = {Yang, Peilin and Fang, Hui},
@@ -25,11 +26,20 @@ Please cite the following paper if your are using it someway...
 
 ```
 
+### Prereqties
+
+
+### Installation
 1. `git clone https://github.com/Peilin-Yang/reproducibleIR.git`
+
 2. Download the indexes, queries and evaluation files.
-```bash
-wget https://s3.amazonaws.com/virlab/rise.tar.gz
-tar xvfz rise.tar.gz
-``` 
-Move all the folders (index, queries, judgments) to `$RISE_FILES`
-1. open `$RISE_ROOT/docker/` 
+    ```
+    wget https://s3.amazonaws.com/virlab/rise.tar.gz
+    tar xvfz rise.tar.gz
+    ```
+
+3. Move the extracted folders (index, queries, judgments) to `$RISE_FILES`
+
+4. open `$RISE_ROOT/docker/docker-compose.yml` change the paths to whatever applies
+
+5. open `$RISE_ROOT/daemon/cronjobs` change the paths to whatever applies
