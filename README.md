@@ -27,11 +27,13 @@ Please cite the following paper if your are using it someway...
 ```
 
 ### Prerequisites
+-----------------
 * docker
 * docker-compose
 
 
-### Installation
+###Installation
+-------------
 1. `git clone https://github.com/Peilin-Yang/reproducibleIR.git`
 
 2. Download the indexes, queries and evaluation files.
@@ -52,3 +54,13 @@ Please cite the following paper if your are using it someway...
   ```
   _NOTICE: if the version of your docker is different from `1.21` then you can run `export COMPOSE_API_VERSION=1.18`_
 
+
+###Utils
+-------------
+* Get Into the Running Docker Container
+  `docker exec -i -t web /bin/bash`
+* PHPMYADMIN_ALIAS `dba`
+
+* db
+  * user: `admin`
+  * password: _by looking the docker log: `docker logs web`_
