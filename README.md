@@ -63,4 +63,4 @@ Please cite the following paper if your are using it someway...
 
 * db
   * user: `admin`
-  * password: _by looking the docker log: `docker logs web`_
+  * password: _by looking the docker log `docker logs web`_
