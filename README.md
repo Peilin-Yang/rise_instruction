@@ -45,3 +45,10 @@ Please cite the following paper if your are using it someway...
 4. open `$RISE_ROOT/docker/docker-compose.yml` change the paths to whatever applies
 
 5. open `$RISE_ROOT/daemon/cronjobs` change the paths to whatever applies
+
+6. go to `$RISE_ROOT/docker` and run
+  ```shell
+  docker-compose up -d
+  ```
+  _NOTICE: if the version of your docker is different from `1.21` then you can run `export COMPOSE_API_VERSION=1.18`_
+
